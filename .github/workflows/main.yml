@@ -1,0 +1,15 @@
+name: CI-Python 
+on:
+  workflow_dispatch:
+  
+jobs:
+ 
+  Build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    - name: install requirments
+      run: pip install -r requiremments.txt
+    
+
