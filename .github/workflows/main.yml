@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: install requirments
-      run: pip install -r requiremments.txt
+      run: pip install -r requirements.txt
     
 
